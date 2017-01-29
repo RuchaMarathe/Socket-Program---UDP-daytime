@@ -1,0 +1,16 @@
+# _*_Makefile_*_
+
+#
+target: dependencies
+#	
+action
+
+all: UDPdaytimeclient
+
+UDPdaytime
+client:
+	gcc UDPdaytime.c -o UDPdaytime
+
+clean: 
+	rm UDPdaytime
+
